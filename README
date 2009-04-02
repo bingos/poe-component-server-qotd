@@ -1,0 +1,6 @@
+POE::Component::Server::Qotd
+===============================
+
+A very simple component to implement RFC 865.
+
+>;o)
