@@ -20,7 +20,7 @@ use vars qw($VERSION);
 use constant DATAGRAM_MAXLEN => 1024;
 use constant DEFAULT_PORT => 17;
 
-$VERSION = '1.12';
+$VERSION = '1.14';
 
 sub spawn {
   my $package = shift;
@@ -111,13 +111,13 @@ POE::Component::Server::Qotd - A POE component that implements an RFC 865 QotD s
 =head1 DESCRIPTION
 
 POE::Component::Server::Chargen implements a RFC 865 L<http://www.faqs.org/rfcs/rfc865.html> TCP/UDP QotD server, using
-L<POE|POE>. It is a class inherited from L<POE::Component::Server::Echo|POE::Component::Server::Echo>.
+L<POE>. It is a class inherited from L<POE::Component::Server::Echo>.
 
 =head1 METHODS
 
 =over
 
-=item spawn
+=item C<spawn>
 
 Takes a number of optional values: 
 
@@ -143,7 +143,7 @@ Chris 'BinGOs' Williams, <chris@bingosnet.co.uk>
 
 =head1 LICENSE
 
-Copyright (C) Chris Williams
+Copyright E<copy> Chris Williams
 
 This module may be used, modified, and distributed under the same terms as Perl itself. Please see the license that came with your Perl distribution for details.
 
